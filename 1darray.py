@@ -1,0 +1,10 @@
+import numpy as np
+lst1=([2,10,24,54,67])
+npArr1=np.array(lst1)
+print(npArr1)
+print("dimension: ",npArr1.ndim)
+print("sum of elements:",np.sum(npArr1))
+print("Maximun element:",np.max(npArr1))
+print("minimum element:",np.min(npArr1))
+print("index the element:",npArr1[0],npArr1[1],npArr1[2],npArr1[3],npArr1[4])
+print("slicing of array:",npArr1[0:2])
