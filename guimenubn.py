@@ -1,0 +1,11 @@
+import tkinter as tk
+root = tk.Tk()
+menu = tk.Menu(root)
+menu.add_command(label="Exit", command=root.quit)
+root.config(menu=menu)
+mb = tk.Menubutton(root, text="Click Me")
+mb.pack()
+m = tk.Menu(mb, tearoff=0)
+m.add_command(label="Option 1")
+mb.config(menu=m)
+root.mainloop()
